@@ -11,7 +11,7 @@ import { MoveRight } from 'lucide-react';
 
 const CollectionStat = () => {
     return (
-        <div className='px-7 mt-[100px]'>
+        <div className='px-7 mt-[50px]'>
             <div className=' font-bold text-xl'>
                 Collection Stats
             </div>

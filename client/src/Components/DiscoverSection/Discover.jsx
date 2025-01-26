@@ -5,7 +5,6 @@ import discover02 from '@/assets/discover02.svg'
 import discover03 from '@/assets/discover03.svg'
 import discover04 from '@/assets/discover04.svg'
 import discover05 from '@/assets/discover05.svg'
-import discover from '@/assets/discover.svg'
 
 const Discover = () => {
 

@@ -6,13 +6,10 @@ import Header from '@/Components/Header/Header'
 const AppLayout = () => {
   return (
     <>
-    <main className='overflow-hidden'>
-        <Header/>
-        <Outlet/>
-    </main>
-
-    <Footer/>
-   </>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
   )
 }
 
