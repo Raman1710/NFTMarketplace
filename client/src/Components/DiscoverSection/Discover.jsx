@@ -14,7 +14,7 @@ const Discover = () => {
 
       <div className='px-7'>
         <div className='flex flex-col justify-center items-center mx-auto my-12 gap-6'>
-          <h1 className='text-7xl font-bold flex flex-col justify-center items-center gap-4'>Discover <span>Limitless Creations</span></h1>
+          <h1 className='text-7xl font-bold flex flex-col justify-center items-center gap-4'>Discover <span className='overflow-y-hidden'>Limitless Creations</span></h1>
           <p className='flex flex-col justify-center items-center text-gray-800'>Unleash the Power of Digital Ownership <span>in the World of NFTs</span></p>
           <Button className='!bg-primary !text-white !rounded-full border-2 border-primary hover:border-2 hover:!border-primary hover:!bg-white hover:!text-black transition-all'>Get Started</Button>
         </div>
