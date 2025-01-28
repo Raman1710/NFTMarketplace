@@ -12,11 +12,11 @@ const Header = () => {
         <div className='w-screen px-7 py-4 text-center'>
             <div className='flex flex-row justify-between items-center'>
                 <div className='flex justify-between items-center gap-11'>
-                    <img src={Logo} />
+                    <Link to='/'><img src={Logo} /></Link>
                     <div className='flex  gap-6'>
-                        <Link className=' font-medium'>Drop</Link>
-                        <Link className=' font-medium'>Sell</Link>
-                        <Link className=' font-medium'>Create</Link>
+                        <Link to='/drop' className=' font-medium'>Drop</Link>
+                        <Link to='/sell' className=' font-medium'>Sell</Link>
+                        <Link to='/create' className=' font-medium'>Create</Link>
                     </div>
                 </div>
 
