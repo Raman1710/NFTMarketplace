@@ -16,7 +16,7 @@ import { Ellipsis } from 'lucide-react';
 const Cards = () => {
     return (
         <>
-            <Card className=' bg-white w-1/6 border-[#cac6d2] text-black   '>
+            <Card className=' bg-white w-1/6 border-[#cac6d2] text-black cursor-pointer  '>
                 <CardHeader className='w-full p-0'>
                     <img src={CardPic} className="w-full rounded-sm object-cover" />
                 </CardHeader>
